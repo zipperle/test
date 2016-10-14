@@ -13,7 +13,8 @@ public class Main{
 
     /** div */
     private static int div(int a, int b){
-        return a/b;
+        int c = a/b;
+        return c;
     }
 
     /** fib */
