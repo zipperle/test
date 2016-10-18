@@ -12,7 +12,7 @@ public class Main{
 	}
 
     /** div */
-    private static int div(int a, int b){
+    private static int division(int a, int b){
         int c = a/b;
         return c;
     }
