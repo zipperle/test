@@ -13,6 +13,8 @@ public class Main{
 
     /** div */
     private static int division(int a, int b){
+        if(b == 0)
+            return 0;
         int c = a/b;
         return c;
     }
@@ -20,9 +22,7 @@ public class Main{
     /** fib */
     private static int fib(int n){
         if(n == 0) {
-            if(n == 0){
-                return 0;
-            }
+            return 0;
         } else if (n == 1) {
             return 1;
         } else {
