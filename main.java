@@ -7,17 +7,11 @@ public class Main{
 	public static void main(String [] args){
 		int a = 10;
         int b = 5;
-        int c = div(a, b);
+        int c = fib(b);
         System.out.println(c);
 	}
 
-    /** div */
-    private static int division(int a, int b){
-        if(b == 0)
-            return 0;
-        int c = a/b;
-        return c;
-    }
+    
 
     /** fib */
     private static int fib(int n){
