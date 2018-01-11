@@ -8,7 +8,7 @@ public class Main{
 		int a = 10;
         int b = 5;
         int c = fib(b);
-        System.out.println(c);
+        System.out.println(c+1);
 	}
 
     
