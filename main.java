@@ -6,9 +6,9 @@ public class Main{
     /** main */
 	public static void main(String [] args){
 		int a = 10;
-        int b = 5;
-        int c = fib(b);
-        System.out.println(c+1);
+		int b = 5;
+		int c = fib(b);
+		System.out.println(c+1);
 	}
 
     
