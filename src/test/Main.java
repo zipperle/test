@@ -3,7 +3,7 @@ package test;
 /** Main */
 public class Main {
 
-	/** main */
+	/** Main */
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 5;
@@ -11,7 +11,7 @@ public class Main {
 		System.out.println(c + 1);
 	}
 
-	/** fib */
+	/** Fib */
 	protected static int fib(int n) {
 		if (n == 0) {
 			return 0;
